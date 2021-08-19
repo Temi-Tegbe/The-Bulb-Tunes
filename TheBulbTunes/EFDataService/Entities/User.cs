@@ -17,5 +17,10 @@ namespace TheBulbTunes.EFDataService.Entities
         public string LastName { get; set; }
         [Required, MaxLength(150)]
         public string EmailAddress { get; set; }
+
+
+        //Favourites belonging to this user
+
+        public List<Favourite> FavouritesList { get; set; }
     }
 }

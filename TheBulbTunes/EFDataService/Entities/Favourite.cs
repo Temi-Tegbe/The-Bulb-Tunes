@@ -20,7 +20,7 @@ namespace TheBulbTunes.EFDataService.Entities
         public Guid AddedById { get; set; }
 
         [Required]
-        public DataType DateAdded { get; set; }
+        public DateTime DateAdded { get; set; }
 
 
 

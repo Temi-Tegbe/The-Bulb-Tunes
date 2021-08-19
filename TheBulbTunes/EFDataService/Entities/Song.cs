@@ -30,5 +30,9 @@ namespace TheBulbTunes.EFDataService.Entities
         [Required]
         public DateTime ReleaseDate { get; set; }
 
+        //Favourites referring to this song
+
+        public List<Favourite> FavouritesList { get; set; }
+
     }
 }
